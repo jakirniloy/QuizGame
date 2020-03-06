@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Question"
+    android:background="@drawable/capture">
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="138dp"
+        android:layout_height="64dp"
+        android:layout_below="@+id/imageView3"
+        android:layout_marginTop="161dp"
+        android:background="@drawable/shape1"
+        android:ems="10"
+        android:hint="4.Option"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="138dp"
+        android:layout_height="64dp"
+        android:layout_below="@+id/imageView3"
+        android:layout_marginStart="-134dp"
+        android:layout_marginTop="91dp"
+        android:layout_toEndOf="@+id/editText7"
+        android:background="@drawable/shape1"
+        android:ems="10"
+        android:hint="1.Option"
+        android:inputType="textPersonName" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="217dp"
+        android:layout_height="206dp"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/quize1"
+        />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="392dp"
+        android:layout_height="79dp"
+        android:layout_below="@+id/imageView3"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="3dp"
+        android:background="@drawable/shape1"
+        android:ems="10"
+        android:hint="Enter Question"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="259dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView3"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="252dp"
+
+        android:layout_marginEnd="67dp"
+        android:background="@drawable/shape1"
+        android:ems="10"
+        android:hint="Correct ans"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText8"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="118dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="136dp"
+        android:background="@drawable/shape"
+        android:text="Save" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="138dp"
+        android:layout_height="64dp"
+        android:layout_below="@+id/imageView3"
+        android:layout_marginStart="113dp"
+        android:layout_marginTop="94dp"
+        android:layout_toEndOf="@+id/editText6"
+        android:background="@drawable/shape1"
+        android:ems="10"
+        android:hint=" 2.Option"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="138dp"
+        android:layout_height="64dp"
+        android:layout_below="@+id/imageView3"
+        android:layout_marginStart="111dp"
+        android:layout_marginTop="160dp"
+        android:layout_toEndOf="@+id/editText6"
+        android:background="@drawable/shape1"
+        android:ems="10"
+        android:hint=" 3.Option"
+        android:inputType="textPersonName" />
+</RelativeLayout>

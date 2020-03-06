@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android ="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/capture"
+
+
+    android:textAlignment="center"
+    android:tooltipText="@string/app_name"
+    android:visibility="visible"
+    tools:context=".MainActivity"
+    tools:visibility="visible">
+
+
+    <Button
+        android:id="@+id/i6"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+
+
+        android:layout_alignParentTop="true"
+
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginStart="103dp"
+        android:layout_marginTop="64dp"
+        android:background="@drawable/k1"
+        android:clickable="true"
+        android:contextClickable="true"
+        android:scaleType="center" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="170dp"
+        android:layout_height="56dp"
+        android:layout_below="@+id/i6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="-1dp"
+        android:layout_toEndOf="@+id/i9"
+        android:text="Start Game"
+        android:textColor="#050707"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/i9"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/textView6"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="171dp"
+        android:layout_marginBottom="11dp"
+        android:background="@drawable/a1"
+        android:clickable="true"
+        android:scaleType="fitCenter"
+        android:tint="#00411AAC" />
+
+    <Button
+        android:id="@+id/i4"
+        android:layout_width="wrap_content"
+        android:layout_height="88dp"
+        android:layout_below="@+id/textView6"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="283dp"
+        android:layout_marginTop="157dp"
+
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="2dp"
+        android:background="@drawable/exx"
+        android:clickable="true"
+        android:scaleType="fitStart" />
+
+    <Button
+        android:id="@+id/i15"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/textView6"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="168dp"
+        android:layout_marginBottom="11dp"
+        android:background="@drawable/sc"
+        android:clickable="true"
+        android:scaleType="fitStart" />
+
+
+</RelativeLayout>

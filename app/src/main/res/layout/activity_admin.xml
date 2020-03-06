@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admin"
+    android:background="@drawable/capture">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="201dp"
+        android:layout_height="62dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="0dp"
+        android:background="#CA0C0C"
+        android:text="  Admin Panel"
+        android:textColor="#0E0606"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="191dp"
+        android:layout_height="196dp"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_below="@id/text1"
+        android:layout_centerInParent="true"
+        app:srcCompat="@drawable/quize1" />
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_below="@id/imageView2"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/sjape"
+        android:text="Question add" />
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_below="@id/b1"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="39dp"
+        android:background="@drawable/sjape"
+        android:text="Main page" />
+</RelativeLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.quizgame">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/quize1"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/quize1"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".QuastionAdd"></activity>
+        <activity android:name=".Admin" />
+        <activity android:name=".singupactivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".scoreboard" />
+        <activity android:name=".about" />
+        <activity android:name=".GameActivty" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Activity01">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

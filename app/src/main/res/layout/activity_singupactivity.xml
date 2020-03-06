@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".singupactivity"
+    android:background="@drawable/capture">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="25dp"
+
+        android:text="Create New Account"
+        android:textColor="#110D0D"
+        android:layout_marginTop="25dp"
+        android:textSize="30dp"
+        />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="303dp"
+        android:layout_height="wrap_content"
+       android:layout_below="@id/textView2"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/shape1"
+        android:hint="  Enter Your Name:"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="25dp"
+        />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="303dp"
+
+
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:layout_centerHorizontal="true"
+      android:layout_marginStart="50dp"
+        android:background="@drawable/shape1"
+        android:hint="  Enter Your Password:"
+        android:layout_marginTop="25dp"
+         />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="303dp"
+        android:layout_height="wrap_content"
+
+
+        android:layout_below="@id/pass"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/shape1"
+        android:hint="  Enter Your Email ID:"
+
+        />
+
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="303dp"
+        android:layout_height="53dp"
+        android:layout_below="@id/email"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="25dp"
+
+        android:background="@drawable/shape1"
+        android:hint=" Enter Your age:" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="122dp"
+        android:layout_height="52dp"
+        android:layout_below="@id/age"
+
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginTop="25dp"
+        android:background="@drawable/sjape"
+
+        android:text="Sign Up" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="237dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/button1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="50dp"
+
+        android:layout_marginTop="25dp"
+        android:background="@drawable/sjape"
+        android:text="Already have a Account" />
+
+
+</RelativeLayout>
